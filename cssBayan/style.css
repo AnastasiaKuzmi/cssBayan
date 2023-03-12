@@ -5,3 +5,22 @@ header{
     font-size: 30px;
     font-family: OCR A Std, monospace;
 }
+.accordion{
+    font-size: 25px;
+    border: 1px solid black;
+    width: 70%;
+    margin: 15px auto;
+    font-family: OCR A Std, monospace;
+}
+details summary::-webkit-details-marker {
+    display: none
+}
+details > summary {
+    list-style: none;
+}
+details summery::after{
+    content: '\f6be';
+}
+img{
+    width: 50%;
+}
